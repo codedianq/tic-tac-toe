@@ -129,6 +129,7 @@ function checkForTie(board) {
 
 const restartButton = document.querySelector('.restart-button');
 restartButton.addEventListener('click', () => {
+  displayController.renderMessage('');
   Game.restart();
 });
 
